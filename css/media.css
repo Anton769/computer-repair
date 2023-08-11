@@ -1,0 +1,261 @@
+@media(max-width: 1475px) {
+
+    .main__bg,
+    .feed__backs-bg {
+        max-width: 100%;
+    }
+
+    .feed__back {
+        max-width: 900px;
+    }
+
+    .header__nav,
+    .header__top {
+        flex-wrap: wrap;
+    }
+
+    .cons__block {
+        max-width: 100%;
+    }
+
+    .flash {
+        right: 0;
+    }
+
+    .item2 {
+top: -148px;
+        right: 0px;
+
+    }
+
+    .last__section .container {
+        justify-content: space-around;
+    }
+
+    .under__block {
+        justify-content: space-evenly;
+        row-gap: 30px;
+    }
+
+    .footer__nav-active {
+        justify-content: center;
+    }
+
+    .header__list,
+    .header__top .container {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+  
+
+    .cons__block {
+        height: 740px;
+    }
+}
+
+@media(max-width: 1090px) {
+    .username {
+        max-width: 285px;
+        padding: 24px 29px 24px 29px;
+    }
+
+    .telephone {
+        max-width: 285px;
+        padding: 24px 39px 24px 39px;
+    }
+
+    .input__block {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0 25px;
+    }
+
+    .container .main__block {
+        max-width: 100%;
+
+    }
+
+    .last__section .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .last__section-m-block {
+        flex-direction: row;
+    }
+
+    .fa-chevron-right::before {
+        right: -10px;
+        top: 252px;
+
+    }
+
+    .fa-chevron-left::before {
+
+        left: -10px;
+        top: 252px;
+    }
+
+    .feed__back {
+        max-width: 720px;
+    }
+
+    .container .main__block {
+        min-height: 517px;
+    }
+
+    .upper__items {
+        width: 190px;
+        height: 190px;
+    }
+
+    .karta {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media(max-width: 849px) {
+    .container .main__block {
+        height: 710px;
+    }
+    .intro__img {
+        filter: blur(2px);
+    }
+}
+
+@media(max-width: 768px) {
+
+
+    .last__section-m-block {
+        flex-direction: column;
+    }
+
+    .fa-chevron-right::before {
+
+        right: 45%;
+        top: 345px;
+    }
+
+    .fa-chevron-left::before {
+        left: 45%;
+        top: 345px;
+    }
+
+    .feed__back {
+        max-width: 576px;
+        height: 150px;
+    }
+
+
+
+    .cons__block {
+        height: 740px;
+    }
+
+    .feed__back,
+    .back,
+    .next {
+        display: none;
+
+    }
+
+    .feed__back-link {
+        display: block;
+        color: #223dcb;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 104%;
+    }
+
+    .feed__backs .container {
+        justify-content: center;
+        height: 500px;
+    }
+
+}
+
+@media(max-width: 639px) {
+    .container .main__block {
+        min-height: 915px;
+
+    }
+}
+
+@media(max-width: 567px) {
+
+
+    .karta {
+        max-width: 300px;
+        max-height: 250px;
+    }
+
+    .flash {
+        height: 50px;
+        bottom: 0;
+    }
+
+    .cons__block {
+        height: 950px;
+        padding: 5px;
+    }
+    .intro__links {
+        display: flex;
+        gap: 37px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 429px) {
+    .container .main__block {
+        min-height: 1545px;
+
+    }
+
+    .flash {
+        right: 0;
+        height: 100px;
+        bottom: 40px;
+    }
+
+    .intro__links {
+        display: flex;
+        gap: 37px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+    .header__intro-title{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .item1{
+        top: -123px;
+    }
+   .header__intro-txt{
+    font-size: 29px;
+   }
+   .header__intro-title{
+    font-size: 33px;
+   }
+   .username,
+   .telephone,
+   .submitbtn{
+    width: 240px;
+   }
+   .btn{
+    width: 240px;
+   }
+}

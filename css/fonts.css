@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 7z00;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../fonts/Webfonts/fa-light-300.ttf);
+    font-weight: 300;
+}
+
+.fal {
+
+    font-family: 'FontAwesome';
+    font-weight: 300;
+
+}
+
+.fa-phone-laptop::before {
+
+    content: '\f87a';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+.fa-history::before {
+
+    content: '\f1da';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+.fa-medal::before {
+
+    content: '\f5a2';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+.fa-user-friends::before {
+
+    content: '\f500';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+.fa-badge-percent::before {
+
+    content: '\f646';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+.fa-memory::before {
+
+    content: '\f538';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+.fa-user-headset::before {
+
+    content: '\f82d';
+    display: block;
+    font-style: normal;
+    font-size: 74px;
+
+}
+
+i {
+
+    color: #0b9cda;
+
+}
+
+.fa-chevron-left::before {
+
+    content: '\f053';
+    display: block;
+    font-style: normal;
+    font-size: 42px;
+    color: #FF6B00;
+    position: absolute;
+    left: -6px;
+    top: 245px;
+
+}
+
+.fa-chevron-right::before {
+
+    content: '\f054';
+    display: block;
+    font-style: normal;
+    font-size: 42px;
+    color: #FF6B00;
+    position: absolute;
+    right: -6px;
+    top: 245px;
+
+}
