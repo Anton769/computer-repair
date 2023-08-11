@@ -125,7 +125,7 @@ top: -148px;
         height: 710px;
     }
     .intro__img {
-        filter: blur(2px);
+        filter: blur(4px);
     }
 }
 
