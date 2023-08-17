@@ -124,9 +124,7 @@ top: -148px;
     .container .main__block {
         height: 710px;
     }
-    .intro__img {
-        filter: blur(4px);
-    }
+    .header__intro-bloc {backdrop-filter: blur(4px);
 }
 
 @media(max-width: 768px) {
